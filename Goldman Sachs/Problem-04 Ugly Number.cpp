@@ -12,7 +12,7 @@ ull getNthUglyNo(int n) {
 	    
 	    for(int i=1;i<=n;i++)
 	    {
-	        ug[i] =min({2*ug[c2] , 3*ug[c3] , 5*ug[c5]});  // for the next ugly number it comes from n-1 of minimum multiple of 2 or 3 or 5.
+	        ug[i] =min({2*ug[c2] , 3*ug[c3] , 5*ug[c5]});  // for the next ugly number it comes from already calculated number of minimum multiple of 2 or 3 or 5.
 	        
 	        if(2*ug[c2]==ug[i])
 	            c2++;                // if we get nth ugly from multiple of 2
