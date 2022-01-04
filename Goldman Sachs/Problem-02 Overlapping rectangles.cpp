@@ -1,4 +1,6 @@
- int doOverlap(int L1[], int R1[], int L2[], int R2[]) {
+/* https://practice.geeksforgeeks.org/problems/overlapping-rectangles1924/1/#  */ 
+
+int doOverlap(int L1[], int R1[], int L2[], int R2[]) {
         
         /* case 1: rectangles are left of one another
            case 2: rectangles are up and down of another */
