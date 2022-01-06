@@ -12,16 +12,16 @@
         {
             while(!l.empty() && l.back()<arr[j]) //check elements are smaller then arr[j] then pop out 
             l.pop_back();
-            l.push_back(arr[j]);  //pushback greatest element in vector
+            l.push_back(arr[j]);  //pushback greatest element in list
             if(j-i+1<k) j++;
-            else if(j-i+1==k) //window size equal to k then push front element in vector
+            else if(j-i+1==k) //window size equal to k then we check 
             {
-                ans.push_back(l.front());
+                ans.push_back(l.front()); 
                 if(arr[i]==l.front()) 
                 l.pop_front(); // removing the first element of prev window
                 i++; 
                 j++; // slide the window
             }
         }
-        return ans;//return the result
+        return ans; //return the result
     }
