@@ -1,4 +1,4 @@
-/* https://practice.geeksforgeeks.org/problems/is-sudoku-valid4820/1/  */
+/* https://practice.geeksforgeeks.org/problems/is-sudoku-valid4820/1/ */
 
 //Solution:
 
