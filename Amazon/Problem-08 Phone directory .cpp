@@ -77,7 +77,6 @@
          else
          vec.push_back(temp);
          
-
          }
 
        return vec;
