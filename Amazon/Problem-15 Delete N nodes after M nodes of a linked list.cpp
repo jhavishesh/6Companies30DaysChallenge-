@@ -2,6 +2,7 @@
 
 //Solution:
 
+
 void linkdelete(struct Node  *head, int M, int N)
     {
          Node *link=head;
