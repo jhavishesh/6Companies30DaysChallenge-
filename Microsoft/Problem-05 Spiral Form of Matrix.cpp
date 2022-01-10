@@ -24,7 +24,7 @@
                ans.push_back(matrix[down][i]);
                down-=1;
            }
-           else if(dir==3){      //from last row bottom to top
+           else if(dir==3){     //from last row bottom to top
                for(int i=down;i>=top;i--)
                    ans.push_back(matrix[i][left]);
                    left+=1;
