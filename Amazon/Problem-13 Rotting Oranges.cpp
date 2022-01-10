@@ -54,7 +54,7 @@ int orangesRotting(vector<vector<int>>& grid) {
         // cnt2 is going to store number of childs of the oranges in the current level
         // Don't worry if you didn't get that line, I got you covered below ;) .
         
-        **// Observe that, The first level is already rotten, 
+        // Observe that, The first level is already rotten, 
         // still we are counting it and hence at the end we return (ans-1) instead of ans . **
         
         while(!q.empty()){
