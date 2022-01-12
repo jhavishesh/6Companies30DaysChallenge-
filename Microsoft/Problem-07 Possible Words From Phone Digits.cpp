@@ -21,7 +21,7 @@
         for(int i=1; i<N; i++)
         {
             
-            vector<string> second = M[a[i]], ans;
+           vector<string> second = M[a[i]], ans;
             
             for(auto f:first)
             {
