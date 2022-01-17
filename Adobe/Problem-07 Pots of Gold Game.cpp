@@ -12,6 +12,7 @@
            return dp[s][e];
            
        int l=nums[s] + min(solve(nums, dp, s+2, e), solve(nums, dp, s+1, e-1));
+  
        int r=nums[e] + min(solve(nums, dp, s+1, e-1), solve(nums, dp, s, e-2));
        
        return dp[s][e]=max(l, r);
