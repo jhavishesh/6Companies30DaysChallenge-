@@ -2,7 +2,8 @@
 
 int lengthOfLongestAP(int A[], int n) {
         int ans = 0;
-       if(n == 1) return 1;
+       if(n == 1) 
+          return 1;
 
         vector<vector<int>>dp(n, vector<int>(10001));
         
